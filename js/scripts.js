@@ -32,3 +32,14 @@
     });
 
 })(jQuery);
+
+var formdata = JSON.stringify($('#contactForm').serializeArray());
+
+$.ajax({
+    type: "POST",
+    url: "",
+    data: formdata
+    success: function(){},
+    datatype: "json",
+    contentType: "application/json"
+});
