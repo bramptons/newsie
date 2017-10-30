@@ -35,7 +35,12 @@
                     <li>
                         <a class="page-scroll" href="#two">Services</a>
                     </li>
-                    
+                    <li>
+                        <a class="page-scroll" href="#three">Portfolio</a>
+                    </li>                    
+                    <li>
+                        <a class="page-scroll" href="#last">Contact</a>
+                    </li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right">
                     <li>
@@ -114,7 +119,126 @@
             </div>
         </div>
     </section>
-    
+    <section id="three" class="no-padding">
+        <div class="container-fluid">
+            <div class="row no-gutter">
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#galleryModal" class="gallery-box" data-toggle="modal" data-src="./assets/deer.jpg">
+                        <img src="./assets/deer.jpg" class="img-responsive" alt="Image 1">
+                        <div class="gallery-box-caption">
+                            <div class="gallery-box-content">
+                                <div>
+                                    <i class="icon-lg ion-ios-search"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#galleryModal" class="gallery-box" data-toggle="modal" data-src="./assets/beach.jpg">
+                        <img src="./assets/beach.jpg" class="img-responsive" alt="Image 2">
+                        <div class="gallery-box-caption">
+                            <div class="gallery-box-content">
+                                <div>
+                                    <i class="icon-lg ion-ios-search"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+				<div class="clearfix hidden-lg"> </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#galleryModal" class="gallery-box" data-toggle="modal" data-src="./assets/lake.jpg">
+                        <img src="./assets/lake.jpg" class="img-responsive" alt="Image 3">
+                        <div class="gallery-box-caption">
+                            <div class="gallery-box-content">
+                                <div>
+                                    <i class="icon-lg ion-ios-search"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#galleryModal" class="gallery-box" data-toggle="modal" data-src="./assets/bike.jpg">
+                        <img src="./assets/bike.jpg" class="img-responsive" alt="Image 4">
+                        <div class="gallery-box-caption">
+                            <div class="gallery-box-content">
+                                <div>
+                                    <i class="icon-lg ion-ios-search"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+				<div class="clearfix hidden-lg"> </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#galleryModal" class="gallery-box" data-toggle="modal" data-src="./assets/city.jpg">
+                        <img src="./assets/city.jpg" class="img-responsive" alt="Image 5">
+                        <div class="gallery-box-caption">
+                            <div class="gallery-box-content">
+                                <div>
+                                    <i class="icon-lg ion-ios-search"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#galleryModal" class="gallery-box" data-toggle="modal" data-src="./assets/colors.jpg">
+                        <img src="./assets/colors.jpg" class="img-responsive" alt="Image 6">
+                        <div class="gallery-box-caption">
+                            <div class="gallery-box-content">
+                                <div>
+                                    <i class="icon-lg ion-ios-search"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+        
+    <section id="last">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="margin-top-0 wow fadeIn">Get in Touch</h2>
+                    <hr class="primary">
+                    <p>Fill out the form below or gives us a call to find out how we can meet your needs.</p>
+                </div>
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <form class="contact-form row" name="contactFrom" enctype="application/json" action="https://quarteyltd.azurewebsites.net/tables/contact?ZUMO-API-VERSION=2.0.0" method="post">
+                        <fieldset>
+                            <div class="col-md-4">
+                                <label></label>
+                                <input type="text" class="form-control" name="fullName" placeholder="Name">
+                            </div>
+                            <div class="col-md-4">
+                                <label></label>
+                                <input type="text" class="form-control" name="email" placeholder="Email">
+                            </div>
+                            <div class="col-md-4">
+                                <label></label>
+                                <input type="text" class="form-control" name="phoneNo" placeholder="Phone">
+                            </div>
+                            <div class="col-md-12">
+                                <label></label>
+                                <textarea class="form-control" rows="9" type="text" name="query" placeholder="Your message here.."></textarea>
+                            </div>
+                            <div class="col-md-4 col-md-offset-4">
+                                <label></label>                           
+                                <input type="submit" value="Send" class="btn btn-primary btn-block btn-lg">
+                            </div>                            
+                        </fieldset>
+                    </form>
+                </div>
+                    
+            </div>
+        </div>
+        
+    </section>
     <footer id="footer">
         <div class="container-fluid">
             <div class="row">
@@ -124,7 +248,6 @@
                         <li>Quartey Limited</li>
                         <li>Company registration #11004739</li>
                         <br/>
-                        <li>Registered Address</li>
                         <li>101 Rose Street South Lane</li>
                         <li>Edinburgh</li>
                         <li>EH2 3JG</li>
@@ -133,12 +256,20 @@
                 <div class="col-xs-6 col-sm-3 column">
                     <h4>About</h4>
                     <ul class="list-unstyled">
-                        <li><a lass="btn btn-primary" data-toggle="modal" data-target="#contactModal" href="">Contact Us</a></li>                        
+                        <li><a href="#">Contact Us</a></li>                        
                         <li><a lass="btn btn-primary" data-toggle="modal" data-target="#termsModal" href="">Terms &amp; Conditions</a></li>                        
                     </ul>
                 </div>
                 <div class="col-xs-12 col-sm-3 column">
-                
+                    <h4>Stay Posted</h4>
+                    <form action="http://quarteyltd.azurewebsites.net/tables/mailer?ZUMO-API-VERSION=2.0.0" method="post">
+                        <div class="form-group">
+                          <input type="text" class="form-control" title="No spam, we promise!" placeholder="Tell us your email">
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" value="Subscribe for updates" class="btn btn-primary" data-target="#alertModal">                          
+                        </div>
+                    </form>
                 </div>
                 <div class="col-xs-12 col-sm-3 text-right">
                     <h4>Follow</h4>
@@ -195,18 +326,6 @@
                     <p class="text-left">Here are ther terms</p>
                     <h5 class="text-center">Conditions</h5>
                     <p class="text-left">Her are the conditions</p>
-                    <br/>
-                    <button class="btn btn-primary btn-lg center block" data-dismiss="modal" aria-hidden="true">OK</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div id="contactModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-body">
-                    <h2 class="text-center">Contact us</h2>                    
-                    <p class="text-left">Send your query to <a href="mailto:">info@quartey.co.uk</a> or call on </p>
                     <br/>
                     <button class="btn btn-primary btn-lg center block" data-dismiss="modal" aria-hidden="true">OK</button>
                 </div>
