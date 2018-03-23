@@ -50,15 +50,11 @@
     <header id="first">
         <div class="header-content">
             <div class="inner">
-                <h1 class="cursive">Simple, One Page Design</h1>
-                <h4>A free landing page theme with video background</h4>
+                <h1 class="cursive">General Data Protection Regulation</h1>
+                <h4>Useful content for the GDPR implementation and compliance</h4>
                 <hr>
-                <a href="#video-background" id="toggleVideo" data-toggle="collapse" class="btn btn-primary btn-xl">Toggle Video</a> &nbsp; <a href="#one" class="btn btn-primary btn-xl page-scroll">Get Started</a>
             </div>
-        </div>
-        <video autoplay="yes" loop="yes" class="fillWidth fadeIn wow collapse in" data-wow-delay="0.5s" poster="https://s3-us-west-2.amazonaws.com/coverr/poster/Traffic-blurred2.jpg" id="video-background">
-            <source src="https://s3-us-west-2.amazonaws.com/coverr/mp4/Traffic-blurred2.mp4" type="video/mp4">Your browser does not support the video tag. I suggest you upgrade your browser.
-        </video>
+        </div>        
     </header>
     <section class="bg-primary" id="one">
         <div class="container">
@@ -80,11 +76,13 @@
         <div class="container-fluid">
             <div class="row no-gutter">
                 <div class="col-lg-4 col-sm-6">
-                    <a href="#galleryModal" class="gallery-box" data-toggle="modal" data-src="">
-                        <img src="" class="img-responsive" alt="Image Caption">
-                        <div class="gallery-box-content">
-                            <div>
-                                <i class="icon-lg ion-ios-search"></i>
+                    <a href="#galleryModal" class="gallery-box" data-toggle="modal" data-src="./assets/Steps_to_Compliance.png">
+                        <img src="./assets/Steps_to_Compliance.png" class="img-responsive" alt="Steps to compliance">
+                        <div class="gallery-box-caption">
+                            <div class="gallery-box-content">
+                                <div>
+                                    <i class="icon-lg ion-ios-search"></i>
+                                </div>
                             </div>
                         </div>
                     </a>
@@ -131,6 +129,19 @@
             <span class="pull-right text-muted small"><a href="">Quartey Limited</a> ©2017 Company</span>
         </div>
     </footer>
+    <div id="galleryModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+        	<div class="modal-body">
+        		<img src="" id="galleryImage" class="img-responsive" />
+        		<p>
+        		    <br/>
+        		    <button class="btn btn-primary btn-lg center-block" data-dismiss="modal" aria-hidden="true">Close <i class="ion-android-close"></i></button>
+        		</p>
+        	</div>
+        </div>
+        </div>
+    </div>
 
     <!--scripts loaded here -->
     <script src="./js/jquery.min.js"></script>
